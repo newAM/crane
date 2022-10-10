@@ -49,6 +49,11 @@
           path = ./examples/custom-toolchain;
         };
 
+        no-std = {
+          description = "Build a cargo project with a no_std target";
+          path = ./examples/no-std;
+        };
+
         default = quick-start;
         quick-start = {
           description = "Build a cargo project";

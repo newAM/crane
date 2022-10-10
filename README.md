@@ -38,6 +38,9 @@ nix flake init -t github:ipetkov/crane#quick-start-simple
 # If you need a custom rust toolchain (e.g. to build WASM targets):
 nix flake init -t github:ipetkov/crane#custom-toolchain
 
+# If you need an embedded rust toolchain (e.g. no_std):
+nix flake init -t github:ipetkov/crane#no-std
+
 # If you need to use another crate registry besides crates.io
 nix flake init -t github:ipetkov/crane#alt-registry
 
